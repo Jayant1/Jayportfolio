@@ -176,13 +176,15 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
-    size: 200px;
-    margin: auto;
+    margin: 15vh;
     border-radius: 50%;
-    border: #bae90f 3px solid; }
+    transform: scale(1.5); }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    margin: 15vh 0; }
+  .about-info #jaartal {
+    color: #bae90f; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
